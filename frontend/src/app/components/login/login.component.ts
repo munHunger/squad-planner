@@ -12,7 +12,6 @@ export class LoginComponent {
     }
 
     facebookLogin() {
-        alert("test");
         this.router.navigateByUrl("/events");
     }
 }
