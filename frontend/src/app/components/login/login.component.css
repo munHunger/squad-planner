@@ -1,0 +1,46 @@
+.background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: -webkit-radial-gradient(top,rgb(64, 219, 224),rgb(22, 180, 159));
+    background: radial-gradient(at top,rgb(64, 219, 224),rgb(22, 180, 159));
+}
+
+.center-panel {
+    margin: 50px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 72px;
+    color: white;
+}
+
+.facebook-login {
+    background-color: #3B5998;
+    background-image: url("/assets/facebook-logo.png");
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 60px;
+    margin: 100px;
+    border: none;
+    border-bottom: inset rgb(84, 117, 184);
+    border-bottom-width: 4px;
+    box-shadow: 2px 2px 5px #888888;
+
+    transition: box-shadow 0.2s ease-out;
+}
+
+.facebook-login:hover {
+    transition: box-shadow 0.2s ease-in;
+    box-shadow: 4px 4px 5px #888888;
+    cursor: pointer;
+}
