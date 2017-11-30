@@ -5,6 +5,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './components/app/app.component';
 import { LoginComponent } from './components/login/login.component';
 import { EventListComponent } from './components/event/list/event-list.component';
+import { EventComponent } from './components/event/event.component';
+import { MultiSliderComponent } from './components/multi-slider/multi-slider.component';
 
 const appRoutes: Routes = [
   { path: '', component: LoginComponent },
@@ -15,7 +17,9 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     LoginComponent,
-    EventListComponent
+    EventListComponent,
+    EventComponent,
+    MultiSliderComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
